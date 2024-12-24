@@ -1,3 +1,5 @@
+#if 0 // Skipping this file for now as it uses POSIX headers.
+
 // Synopsis: A simple class to save debugging comments to files
 //
 // Authors: Martin Kutz <kutz@math.fu-berlin.de>,
@@ -86,3 +88,5 @@ namespace SEB_NAMESPACE {
 } // namespace SEB_NAMESPACE
 
 #endif // SEB_DEBUG_H
+
+#endif
